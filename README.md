@@ -12,6 +12,12 @@ The dataset used is of a Portuguese banking institution from UCI Machine Learnin
 It can be seen from the dataset that the same target audience was to be called repeatedly to check if he/she has subscribed to a term deposit or not. 
 The dataset consists of about 45,000 rows and 18 columns and is over a period of two years.
 
-data pre-processing and Exploratory data analysis (EDA) was done. 
-Under pre- processing we performed outlier detection, label encoding, checked if any NULL, duplicates values are present etc. With EDA, we got insights into our dataset by using Histogram, Scatter plot, Correlation, Heat maps, etc.
+At first, I performed data pre-processing and Exploratory data analysis (EDA). 
+Under pre- processing I performed outlier detection, label encoding, checked if any NULL, duplicates values are present etc. 
+With EDA, I got insights into our dataset using Histogram, Scatter plot, Correlation, Heat maps, etc.
+
+Later, applied various classifiers like SVM, KNN, Gradient Boost, Random Forest to classify whether a customer will make a term deposit or not and used evaluation metrics like confusion matrix, precision, recall, classification report, ROC curve and AUC for the analysis. Gradient boost gave the highest accuracy of 90.68%.
+
+Developed a web application with Gradio where we entering the client details it will help us check if that client will opt for a term deposit plan or not.
+Gradio is an open-source Python library which allows you to develop an easy-to-use customizable component demo for your ML model.
 
